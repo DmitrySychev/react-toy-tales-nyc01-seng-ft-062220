@@ -21,6 +21,8 @@ class App extends React.Component{
     })
   }
 
+  
+
 
 
   render(){
@@ -29,7 +31,7 @@ class App extends React.Component{
         <Header/>
         { this.state.display
             ?
-          <ToyForm/>
+          <ToyForm />
             :
           null
         }
